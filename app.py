@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/bin/python
 from pymongo import MongoClient
 from bson.objectid import ObjectId
 from flask import Flask,render_template,jsonify,json,request
