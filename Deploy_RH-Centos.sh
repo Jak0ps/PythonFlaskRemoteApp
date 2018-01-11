@@ -25,8 +25,8 @@ service mongod start
 
 mkdir -p /opt/myapp
 cd /opt/myapp
-git init
-#Pull your repo
+#git init
+#Clone your repo
 git clone https://github.com/Jak0ps/PythonFlaskRemoteApp.git ./
 
 git config --global user.email "jsaleh@test.com"
