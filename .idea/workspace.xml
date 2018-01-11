@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="0a436e89-cbf1-4fc7-8043-0803f7dd11fd" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/Deploy_RH-Centos.sh" afterPath="$PROJECT_DIR$/Deploy_RH-Centos.sh" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,17 +29,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Deploy_RH-Centos.sh" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Deploy_RH-Centos.sh" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Deploy_RH-Centos.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="53" />
+            <state relative-caret-position="252">
+              <caret line="33" column="45" lean-forward="true" selection-start-line="33" selection-start-column="45" selection-end-line="33" selection-end-column="45" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Git-Update.sh" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Git-Update.sh" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Git-Update.sh">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="189">
@@ -532,18 +531,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Git-Update.sh">
+    <entry file="file://$PROJECT_DIR$/Deploy_RH-Centos.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" column="23" lean-forward="true" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+        <state relative-caret-position="252">
+          <caret line="33" column="45" lean-forward="true" selection-start-line="33" selection-start-column="45" selection-end-line="33" selection-end-column="45" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Deploy_RH-Centos.sh">
+    <entry file="file://$PROJECT_DIR$/Git-Update.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
-          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="53" />
+          <caret line="9" column="23" lean-forward="true" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
           <folding />
         </state>
       </provider>
