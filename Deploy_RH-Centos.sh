@@ -27,12 +27,13 @@ mkdir -p /opt/myapp
 cd /opt/myapp
 #git init
 #Clone your repo
-git clone https://github.com/Jak0ps/PythonFlaskRemoteApp.git ./
+git clone https://github.com/Jak0ps/PythonFlaskRemoteApp.git
 
 git config --global user.email "jsaleh@test.com"
 git config --global user.name "Jacob"
 
-chmod +x /opt/myapp/*.py* && chmod +x /opt/myapp/*.sh
+#chmod +x /opt/myapp/*.py* && chmod +x /opt/myapp/*.sh
+chown -R jsaleh:jsaleh /opt/myapp/
 
 #Create Daemon
 cat <<EOF > /lib/systemd/system/myapp.service
@@ -41,10 +42,9 @@ Description=myapp Server
 After=network.target
 
 [Service]
-Type=forking
-User=root
-WorkingDirectory=/opt/myapp
-ExecStart=/opt/myapp/app.py
+User=jsaleh
+WorkingDirectory=/opt/myapp/PythonFlaskRemoteApp
+ExecStart=/opt/myapp/PythonFlaskRemoteApp/app.py
 Restart=on-failure
 
 [Install]
