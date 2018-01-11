@@ -1,8 +1,9 @@
 #!/usr/bin/env bash
 #sudo su
-if [ ! $(whoami) = jsaleh ]
+APPUSER="jsaleh"
+if [ ! $(whoami) = $APPUSER ]
     then
-        echo "Run this script as jsaleh only"
+        echo "Run this script as "$APPUSER"= only"
         exit
 fi
 

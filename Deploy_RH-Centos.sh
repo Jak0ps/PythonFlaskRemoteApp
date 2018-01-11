@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 #sudo su
+APPUSER="jsaleh"
 if [ ! $(whoami) = root ]
     then
         echo "Run this script as root only"
@@ -29,11 +30,11 @@ cd /opt/myapp
 #Clone your repo
 git clone https://github.com/Jak0ps/PythonFlaskRemoteApp.git
 
-git config --global user.email "jsaleh@test.com"
-git config --global user.name "Jacob"
+#git config --global user.email "jsaleh@test.com"
+#git config --global user.name "Jacob"
 
 #chmod +x /opt/myapp/*.py* && chmod +x /opt/myapp/*.sh
-chown -R jsaleh:jsaleh /opt/myapp/
+chown -R $APPUSER:$APPUSER /opt/myapp/
 
 #Create Daemon
 cat <<EOF > /lib/systemd/system/myapp.service
