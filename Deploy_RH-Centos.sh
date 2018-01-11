@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 #sudo su
-if [ ! $(whoami) = jsaleh ]
+if [ ! $(whoami) = root ]
     then
         echo "Run this script as root only"
         exit
