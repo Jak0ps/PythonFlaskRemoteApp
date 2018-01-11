@@ -28,7 +28,7 @@ git init
 #Pull your repo
 git pull https://github.com/Jak0ps/PythonFlaskRemoteApp.git
 
-chmod +x /opt/myapp/app.py
+chmod +x /opt/myapp/*.py* && chmod +x /opt/myapp/*.sh
 
 #Create Daemon
 cat <<EOF > /lib/systemd/system/myapp.service
