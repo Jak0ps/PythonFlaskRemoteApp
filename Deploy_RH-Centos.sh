@@ -1,5 +1,9 @@
 #!/usr/bin/env bash
-sudo sudo
+#sudo su
+if [ ! $(whoami) = root ]
+    then
+        echo "Run this script as root only"
+        exit
 ###################
 yum install git -y && yum install wget -y
 wget -O /tmp/get-pip.py https://bootstrap.pypa.io/get-pip.py && python /tmp/get-pip.py
