@@ -8,4 +8,4 @@ fi
 
 cd /opt/myapp
 git pull https://github.com/Jak0ps/PythonFlaskRemoteApp.git
-systemctl restart myapp
+#systemctl restart myapp

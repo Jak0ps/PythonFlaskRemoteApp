@@ -27,7 +27,10 @@ mkdir -p /opt/myapp
 cd /opt/myapp
 git init
 #Pull your repo
-git pull https://github.com/Jak0ps/PythonFlaskRemoteApp.git
+git clone https://github.com/Jak0ps/PythonFlaskRemoteApp.git ./
+
+git config --global user.email "jsaleh@test.com"
+git config --global user.name "Jacob"
 
 chmod +x /opt/myapp/*.py* && chmod +x /opt/myapp/*.sh
 
